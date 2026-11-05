@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocinando con Nadi y Sofi - Cocina en el Volcán</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fcf8f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Encabezado */
+        header {
+            background: linear-gradient(135deg, #e22727, #eb8d29);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 2.5rem;
+            margin: 0 0 10px 0;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Contenido principal */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Secciones */
+        .card-section {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-left: 6px solid #e65112;
+        }
+
+        h2.title-main {
+            background-color: #ffba08;
+            color: #4a1500;
+            font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+            font-size: 1.4rem;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        h2.title-sub {
+            background-color: #f5c54d;
+            color: #2c2c2c;
+            font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+            font-size: 1.1rem;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: normal;
+        }
+
+        /* Listas decoradas */
+        ul.custom-list {
+            background-color: #fff3e0;
+            padding: 15px 15px 15px 35px;
+            border-radius: 8px;
+            list-style-type: square;
+        }
+
+        ul.custom-list li {
+            background-color: #ffda85;
+            margin: 8px 0;
+            padding: 8px 12px;
+            border-radius: 6px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        /* Imagen adaptable */
+        .img-container {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* Sección de contacto */
+        .contact-section {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            border-left: 6px solid #e65112;
+        }
+
+        .btn-link {
+            display: inline-block;
+            background-color: #e65112;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .btn-link:hover {
+            background-color: #c43e00;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #2c2c2c;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cocina en el Volcán</h1>
+        <p>Sabor canario que nace del volcán. <em>Cocina en el Volcán</em> es un proyecto que busca dar a conocer la gastronomía Canaria.</p>
+    </header>
+
+    <main>
+        <!-- Sección 1: Información del Proyecto -->
+        <section class="card-section">
+            <h2 class="title-main">Lluvia de Ceniza</h2>
+            <h2 class="title-sub">Los turistas optan por otras gastronomías que la canaria cuando van a sitios de comida.</h2>
+            
+            <ul class="custom-list">
+                <li>Dar a conocer la gastronomía Canaria.</li>
+                <li>Promover platos y postres tradicionales.</li>
+                <li>Guiar gastronómicamente a los turistas.</li>
+            </ul>
+
+            <h2 class="title-main">La erupción del Volcán</h2>
+            <h2 class="title-sub">Un plato que representa la erupción de un volcán mediante la forma de los alimentos y su presentación.</h2>
+            
+            <ul class="custom-list">
+                <li>Entra en nuestra página y descubre la gastronomía Canaria.</li>
+                <li>Conoce nuestras comidas y postres canarios y sus ingredientes.</li>
+                <li>Elige una receta y aprende cómo prepararla paso a paso.</li>
+            </ul>
+
+            <div class="img-container">
+                <img src="https://i.pinimg.com/736x/58/18/25/581825d6c2e3e8cc3d21b7b966b08e91.jpg" alt="Foto de presentación del plato volcánico">
+            </div>
+        </section>
+
+        <!-- Sección 2: Contacto y Enlaces -->
+        <section class="contact-section">
+            <h2>Contacto y Enlaces</h2>
+            <p>Visita nuestra página oficial:</p>
+            <a href="https://www.santamariadelosvolcanes.org/" target="_blank" class="btn-link">Ir al Colegio Nazaret</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Gobierno de Canarias | Turismo de Canarias</p>
+    </footer>
+
+</body>
+</html>
